@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vegie: Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Vegie: Home</title>
 </head>
 <body>
-    
+    <main id="notLoggedIn">
+        <header id="header">
+            <div id="title-and-icon">
+                <i id="icon" class="fas fa-carrot fa-4x"></i>
+                <h1 id="title">Vegies</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="nav-list-element"><a href="#" class="nav-links">About</a></li>
+                    <li class="nav-list-element"><a href="#" class="nav-links current">Home</a></li>
+                    <li class="nav-list-element"><a href="#" class="nav-links">Signup</a></li>
+                </ul>
+            </nav>
+        </header>
+    </main>
+    <main id="loggedIn">
+
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>
