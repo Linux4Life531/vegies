@@ -11,7 +11,7 @@ body {
 
 #header {
     width: 100vw;
-    height: 27vh;
+    height: 22vh;
     background: white;
     border-top: 5px solid #e03134;
 }
@@ -65,4 +65,47 @@ nav > ul {
 
 .current:hover {
     font-style: bold;
+}
+
+section#home {
+    height: 78vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+div#main-section {
+    border-radius: 20px;
+    background-image: url(assets/backroundImageRed.jpg);
+    background-size: 100% 100%;
+    width: 50%;
+    height: 80%;
+}
+
+#main-section > * {
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 3rem;
+}
+
+#button-get-started {
+    color: white;
+    font-style: italic;
+    background: #e03134;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 8px;
+    width: 160px;
+    height: 40px;
+    font-size: 1.5rem;
+    position: relative;
+    left: 40%;
+    top: 35%;
 }
